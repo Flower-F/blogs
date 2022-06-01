@@ -1,0 +1,24 @@
+{
+  "name": "flower-f-blogs",
+  "version": "0.0.1",
+  "private": true,
+  "description": "My front end blogs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Flower-F/blogs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [
+    "front end"
+  ],
+  "author": "Flower F",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-beta.46",
+    "vue": "^3.2.36",
+    "vuepress": "2.0.0-beta.46"
+  }
+}
