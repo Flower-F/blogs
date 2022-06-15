@@ -11,11 +11,20 @@ const sidebar: SidebarConfig = {
       ]
     }
   ],
-  '/monitor': [
+  '/monitor/': [
     {
       text: '前端监控',
       children: [
         '/monitor/README.md'
+      ]
+    }
+  ],
+  '/professional-javascript/': [
+    {
+      text: 'JavaScript 高级程序设计',
+      children: [
+        '/professional-javascript/README.md',
+        '/professional-javascript/proxy.md'
       ]
     }
   ]
