@@ -5,6 +5,7 @@
     "source.fixAll.eslint": true
   },
   "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
   "prettier.enable": false,
   "[javascript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"

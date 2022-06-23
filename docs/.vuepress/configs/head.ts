@@ -1,5 +1,5 @@
 import type { HeadConfig } from 'vuepress'
 
 export const head: HeadConfig[] = [
-  ['link', { rel: 'icon', href: '/favicon.png' }]
+  ['link', { rel: 'icon', href: '/images/hero.png' }]
 ]

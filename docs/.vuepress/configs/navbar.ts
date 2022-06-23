@@ -1,17 +1,6 @@
 import { NavbarConfig } from 'vuepress'
 
-// const navbar: NavbarConfig = [
-  // {
-  //   text: '性能优化',
-  //   link: '/performance/'
-  // },
-  // {
-  //   text: '监控',
-  //   link: '/monitor/'
-  // }
-// ]
-
-const navbar: NavbarConfig = [
+export const navbar: NavbarConfig = [
   {
     text: '知识干货',
     children: [
@@ -31,9 +20,15 @@ const navbar: NavbarConfig = [
       {
         text:'JavaScript 高级程序设计',
         link:'/professional-javascript/'
+      },
+      {
+        text: 'TypeScript 全面进阶指南',
+        link: '/typescript-advanced-guide/'
       }
     ]
+  },
+  {
+    text: '杂碎笔记',
+    link:'/notes/'
   }
 ]
-
-export default navbar

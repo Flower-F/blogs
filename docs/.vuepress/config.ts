@@ -1,7 +1,5 @@
-import { defineUserConfig, defaultTheme } from 'vuepress'
-import { head } from './configs/head'
-import navbar from './configs/navbar'
-import sidebar from './configs/sidebar'
+import { defineUserConfig, defaultTheme } from 'vuepress';
+import { head, navbar, sidebar } from './configs';
 
 export default defineUserConfig({
   base: '/',
@@ -12,7 +10,11 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/images/hero.png',
     docsDir: 'docs',
+    repo: 'https://github.com/Flower-F/blogs',
+    docsBranch: 'main',
+    editLinkPattern: ':repo/edit/:branch/:path',
     sidebar,
+    sidebarDepth: 1,
     navbar,
     selectLanguageName: '简体中文',
     selectLanguageText: '选择语言',
@@ -32,7 +34,6 @@ export default defineUserConfig({
     backToHome: '返回首页',
     openInNewWindow: '在新窗口打开',
     toggleDarkMode: '切换夜间模式',
-    toggleSidebar: '切换侧边栏',
-    sidebarDepth: 1
+    toggleSidebar: '切换侧边栏'
   })
-})
+});

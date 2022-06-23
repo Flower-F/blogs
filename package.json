@@ -9,10 +9,12 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "lint": "eslint docs --ext .js,.jsx,.ts,.tsx --fix"
   },
   "keywords": [
-    "front end"
+    "front end",
+    "blogs"
   ],
   "author": "Flower F",
   "license": "MIT",
