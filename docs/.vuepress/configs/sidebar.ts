@@ -57,7 +57,8 @@ export const sidebar: SidebarConfig = {
         '/typescript-advanced-guide/13.md',
         '/typescript-advanced-guide/14.md',
         '/typescript-advanced-guide/15.md',
-        '/typescript-advanced-guide/16.md'
+        '/typescript-advanced-guide/16.md',
+        '/typescript-advanced-guide/17.md'
       ]
     }
   ]
