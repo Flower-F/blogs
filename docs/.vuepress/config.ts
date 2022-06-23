@@ -1,3 +1,4 @@
+import path from 'path';
 import { defineUserConfig, defaultTheme } from 'vuepress';
 import { head, navbar, sidebar } from './configs';
 
@@ -14,7 +15,6 @@ export default defineUserConfig({
     docsBranch: 'main',
     editLinkPattern: ':repo/edit/:branch/:path',
     sidebar,
-    sidebarDepth: 1,
     navbar,
     selectLanguageName: '简体中文',
     selectLanguageText: '选择语言',

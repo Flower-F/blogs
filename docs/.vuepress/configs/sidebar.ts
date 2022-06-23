@@ -15,7 +15,9 @@ export const sidebar: SidebarConfig = {
     {
       text: '前端监控',
       children: [
-        '/monitor/README.md'
+        '/monitor/README.md',
+        '/monitor/01.md',
+        '/monitor/02.md'
       ]
     }
   ],
