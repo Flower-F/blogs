@@ -1,4 +1,4 @@
-import { SidebarConfig } from 'vuepress'
+import { SidebarConfig } from 'vuepress';
 
 export const sidebar: SidebarConfig = {
   '/performance/': [
@@ -50,6 +50,14 @@ export const sidebar: SidebarConfig = {
         '/typescript-advanced-guide/06.md',
         '/typescript-advanced-guide/07.md',
         '/typescript-advanced-guide/08.md',
+        '/typescript-advanced-guide/09.md',
+        '/typescript-advanced-guide/10.md',
+        '/typescript-advanced-guide/11.md',
+        '/typescript-advanced-guide/12.md',
+        '/typescript-advanced-guide/13.md',
+        '/typescript-advanced-guide/14.md',
+        '/typescript-advanced-guide/15.md',
+        '/typescript-advanced-guide/16.md'
       ]
     }
   ]
